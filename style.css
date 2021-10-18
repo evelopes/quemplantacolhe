@@ -1,0 +1,22 @@
+
+header{
+  width: 940px;
+  margin: auto;
+}
+
+.capahome{
+  width:100%;
+}
+
+nav{
+  background: rgb(38, 79, 139) ;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+nav ul li{
+  display: inline;
+  padding-left: 25px ;
+  color: rgb(226, 87, 87);
+}
