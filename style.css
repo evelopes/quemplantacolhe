@@ -12,6 +12,7 @@ nav{
   padding: 20px;
   text-align: center;
   font-weight: bold;
+  font-size: 24px;
 }
 
 nav ul li{
@@ -178,9 +179,9 @@ footer p {
 /*CSS - Blog*/
 
 .lateral .botao{
-  background: white;
+  background:brown;
   border-radius: 9px;
-  width: 190px;
+  width: 170px;
   padding:20px;
   margin: 20px;
   text-align: center;
@@ -188,12 +189,12 @@ footer p {
 }
 
 .lateral .botao a{
-  color: brown;
+  color:white;
   font-weight: bold;
   text-align: center;
 }
 
-.blog2{
+.blog2 {
   width:570px;
   background: tan;
   display: inline-block;
@@ -202,10 +203,87 @@ footer p {
   padding: 20px;
 }
 
+h1{
+  color:midnightblue;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+
+}
  h2{
   color:brown;
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+
+/*CSS - Apoie*/
+
+.centro{
+  width: 100%;
+  text-align: center;
+}
+
+.centro h1{  
+  padding: 30px 0px 10px 0px;
+}
+
+.planos{
+  width: 295px;
+  vertical-align: top;
+  display: inline-block;
+  background: white;
+  margin: 10px;
+  background: linear-gradient(white, white, aquamarine);
+  padding-bottom: 50px;
+  border-radius: 50px;
+
+}
+
+.apoiador{
+  width: 60%;
+  margin: 20px auto;
+  text-align: center;
+  padding: 40px;
+}
+.apoiador p{
+  display: inline;
+  font-weight: bold;
+  color: saddlebrown;
+}
+.apoiador .botao{
+  background-color: brown;
+  color: white;
+  display: inline;
+  width: 30px;
+}
+.apoiador a{
+  text-decoration: none;
+}
+
+
+
+.frase{
+  background-color: coral;
+  width: 100%;
+  border-radius: 0px 10px 20px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.frase h2{
+  color: white;
+}
+
+.prova{
+  width: 100%;
+  text-align: center;
+}
+
+.prova p{
+  padding: 40px;
+  color: brown;
+  font-weight: bold;
 }
