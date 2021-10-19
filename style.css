@@ -6,6 +6,7 @@ header{
 
 .capahome{
   width:100%;
+  padding-bottom: 20px;
 }
 
 nav{
@@ -19,4 +20,41 @@ nav ul li{
   display: inline;
   padding-left: 25px ;
   color: rgb(226, 87, 87);
+}
+
+main{
+  width: 940px;
+  margin: auto;
+}
+
+.videohome li{
+  box-align: center;
+  display: inline;
+  padding: 5px;
+}
+
+.videohome{
+  padding-bottom: 20px;
+}
+
+.perfil {
+  width: 940px;
+  margin: auto;
+  margin-top: 130px;
+  background: rgb(206, 229, 255);
+}
+
+.botao{
+  background: brown;
+  border-radius: 9px;
+  width: 190px;
+  padding:20px;
+  display: inline;
+  margin-left: 350px;
+}
+
+.botao a{
+  font-style: bold;
+  color: white;
+  text-align: center;
 }
