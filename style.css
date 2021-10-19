@@ -1,12 +1,10 @@
-
-header{
+body{
   width: 100%;
   margin: auto;
 }
-
-.capahome{
-  width:100%;
-  padding-bottom: 20px;
+header{
+  width: 100%;
+  margin: auto;
 }
 
 nav{
@@ -18,12 +16,21 @@ nav{
 
 nav ul li{
   display: inline;
-  padding-left: 25px ;
   color: rgb(226, 87, 87);
 }
 
+li a{
+  display: inline;
+  padding-left: 25px ;
+  color: rgb(226, 87, 87);
+}
+.capahome{
+  width:100%;
+  padding-bottom: 20px;
+}
+
 main{
-  width: 940px;
+  width: 980px;
   margin: auto;
 }
 
@@ -36,11 +43,13 @@ main{
 
 .videohome{
   padding-bottom: 20px;
-}
+  }
 
 .videoprincipal{
    box-shadow:  -4px 4px orange , -8px -8px teal ;
-}
+   width:30%;
+   margin-right: 15px;
+  }
 
 .videoprincipal:hover{
   transform: scale(1.1);
@@ -67,8 +76,7 @@ main{
 
 .inscreva{
   align-content: center;
-  margin: auto;
-  background: teal;
+  margin-top: 6px;
   padding: 20px;
 }
 
@@ -78,7 +86,7 @@ main{
   display: inline-block;
   width: 40%;
   margin-left: 20%;
-  padding-top:20px;
+  padding:20px;
 
 }
 
@@ -86,8 +94,16 @@ main{
 .perfil {
   width: 940px;
   margin: auto;
-  margin-top: 10px;
+  padding:20px;
   background: rgb(206, 229, 255);
+  box-shadow: 10px 10px teal, -10px -10px tan;
+}
+
+
+.perfil:hover{  
+  background: rgb(198, 199, 252);
+  box-shadow: 10px 10px tan, -10px -10px teal;
+  transition: 4s;
 }
 
 .foto{
@@ -98,7 +114,7 @@ main{
 }
 
 .perfil p{
-  background: rgb(253, 167, 235);
+
   padding: 20px; 
   margin: 20px;
   display:  inline-block;
@@ -108,22 +124,17 @@ main{
 
 .blog{
   width:90%;
-  background: teal;
-  margin: auto;
+  background: rgba(255,250,250,0.8);
+  margin: 45px auto;
   padding: 5%;
+  box-shadow: 10px 10px palevioletred, -10px -10px tomato;
 }
 
-.content{
-  background: rgba(255,250,250,0.5) ;
-  padding: 5%;
+.blog:hover{ 
+  background: rgb(255, 226, 221);
+  box-shadow: 10px 10px purple, -10px -10px olivedrab;
+  transition: 4s;
 }
-
-
-
-
-
-
-
 
 footer{
   background: teal;
@@ -135,4 +146,66 @@ footer p {
   padding: 20px;
   color: whitesmoke;
   font-style: italic;
+}
+
+/*CSS - Sobre*/
+
+
+.lateral{
+  width:280px;
+  background: teal;
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+}
+
+.lateral .videoprincipal{
+  box-shadow:  -4px 4px orange , -8px -8px teal ;
+  width:90%;
+  margin: 15px ;
+ }
+
+.sobre{
+  width:570px;
+  background: tan;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+  padding: 20px;
+}
+
+
+/*CSS - Blog*/
+
+.lateral .botao{
+  background: white;
+  border-radius: 9px;
+  width: 190px;
+  padding:20px;
+  margin: 20px;
+  text-align: center;
+  display:block;
+}
+
+.lateral .botao a{
+  color: brown;
+  font-weight: bold;
+  text-align: center;
+}
+
+.blog2{
+  width:570px;
+  background: tan;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+  padding: 20px;
+}
+
+ h2{
+  color:brown;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
