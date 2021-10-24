@@ -8,7 +8,7 @@ header{
 }
 
 nav{
-  background: rgb(38, 79, 139) ;
+  background: #264653ff;
   padding: 20px;
   text-align: center;
   font-weight: bold;
@@ -17,13 +17,13 @@ nav{
 
 nav ul li{
   display: inline;
-  color: rgb(226, 87, 87);
+  color: e76f51ff;
 }
 
 li a{
   display: inline;
   padding-left: 25px ;
-  color: rgb(226, 87, 87);
+  color: e76f51ff;
 }
 .capahome{
   width:100%;
@@ -47,7 +47,7 @@ main{
   }
 
 .videoprincipal{
-   box-shadow:  -4px 4px orange , -8px -8px teal ;
+   box-shadow:  -4px 4px orange , -8px -8px #264653ff;
    width:30%;
    margin-right: 15px;
   }
@@ -55,13 +55,13 @@ main{
 .videoprincipal:hover{
   transform: scale(1.1);
   transition: 1s;
-  box-shadow:  8px -8px purple , 16px 16px yellowgreen ;
+  box-shadow:  8px -8px #2a9d8fff, 16px 16px yellowgreen ;
 }
 
 
 
 .botao{
-  background: brown;
+  background: #e76f51ff;
   border-radius: 9px;
   width: 190px;
   padding:20px;
@@ -97,13 +97,13 @@ main{
   margin: auto;
   padding:20px;
   background: rgb(206, 229, 255);
-  box-shadow: 10px 10px teal, -10px -10px tan;
+  box-shadow: 10px 10px #264653ff, -10px -10px tan;
 }
 
 
 .perfil:hover{  
   background: rgb(198, 199, 252);
-  box-shadow: 10px 10px tan, -10px -10px teal;
+  box-shadow: 10px 10px tan, -10px -10px #264653ff;
   transition: 4s;
 }
 
@@ -133,12 +133,12 @@ main{
 
 .blog:hover{ 
   background: rgb(255, 226, 221);
-  box-shadow: 10px 10px purple, -10px -10px olivedrab;
+  box-shadow: 10px 10px #2a9d8fff, -10px -10px olivedrab;
   transition: 4s;
 }
 
 footer{
-  background: teal;
+  background: #264653ff;
   width: 100%;
 }
 
@@ -154,21 +154,21 @@ footer p {
 
 .lateral{
   width:280px;
-  background: teal;
+  background: #264653ff;
   display: inline-block;
   margin: 10px;
   padding: 20px;
 }
 
 .lateral .videoprincipal{
-  box-shadow:  -4px 4px orange , -8px -8px teal ;
+  box-shadow:  -4px 4px orange , -8px -8px #264653ff ;
   width:90%;
   margin: 15px ;
  }
 
 .sobre{
   width:570px;
-  background: tan;
+  background: #e9c46aff;
   display: inline-block;
   vertical-align: top;
   margin: 10px;
@@ -179,7 +179,7 @@ footer p {
 /*CSS - Blog*/
 
 .lateral .botao{
-  background:brown;
+  background: #e76f51ff;
   border-radius: 9px;
   width: 170px;
   padding:20px;
@@ -196,7 +196,7 @@ footer p {
 
 .blog2 {
   width:570px;
-  background: tan;
+  background:#e9c46aff;
   display: inline-block;
   vertical-align: top;
   margin: 10px;
@@ -204,14 +204,14 @@ footer p {
 }
 
 h1{
-  color:midnightblue;
+  color:#264653ff;
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 30px;
 
 }
  h2{
-  color:brown;
+  color:#e76f51ff;
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
@@ -250,10 +250,10 @@ h1{
 .apoiador p{
   display: inline;
   font-weight: bold;
-  color: saddlebrown;
+  color: #e9c46aff;
 }
 .apoiador .botao{
-  background-color: brown;
+  background-color: #e76f51ff;;
   color: white;
   display: inline;
   width: 30px;
@@ -265,7 +265,7 @@ h1{
 
 
 .frase{
-  background-color: coral;
+  background-color: #e76f51ff;;
   width: 100%;
   border-radius: 0px 10px 20px;
   text-align: center;
@@ -284,6 +284,6 @@ h1{
 
 .prova p{
   padding: 40px;
-  color: brown;
+  color: #e76f51ff;;
   font-weight: bold;
 }
