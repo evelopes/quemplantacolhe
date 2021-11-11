@@ -1,0 +1,44 @@
+body{
+  background: teal;
+}
+
+main .home{
+    background: purple ;
+  }
+
+  p {
+  font-size: mi;
+  font-family: "Questrial", sans-serif;
+}
+
+h2 {
+  font-size: 18px;
+  font-family: "Questrial", sans-serif;
+  padding: 0 10px;
+}
+.hashtag {
+  font-size: 14px;
+  font-family: "Questrial", sans-serif;
+  padding: 10px;
+}
+
+.materia {
+  background: #79ff9f;
+  height: 54px;
+  font-size: 20px;
+  font-family: "Questrial", sans-serif;
+  padding: 5px;
+  margin-left: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.video {
+  background: #4cbefe;
+  height: 54px;
+  font-size: 20px;
+  font-family: "Questrial", sans-serif;
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+}
